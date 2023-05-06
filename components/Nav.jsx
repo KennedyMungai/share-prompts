@@ -33,8 +33,17 @@ const Nav = () => {
 							onClick={signOut}
 							className='outline_btn'
 						>
-                            Sign Out
-                        </button>
+							Sign Out
+						</button>
+						<Link href={'/profile'}>
+							{/* <Image
+								src={'/assets/images/profile.svg'}
+								width={30}
+								height={30}
+								alt='user'
+								className='object-contain'
+							/> */}
+						</Link>
 					</div>
 				) : (
 					<div></div>
