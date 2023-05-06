@@ -11,9 +11,10 @@ const Nav = () => {
 			<Link href={'/'} className='flex gap-2 flex-center'>
 				<Image
 					src={'/assets/images/logo.svg'}
-					width={'40'}
-					height={'40'}
+					width={'30'}
+					height={'30'}
 					alt='The Page logo'
+					className='object-contain'
 				/>
 			</Link>
 		</nav>
