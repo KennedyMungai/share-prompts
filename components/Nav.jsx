@@ -11,7 +11,7 @@ const Nav = () => {
 	const [providers, setProviders] = useState(null)
 
 	useEffect(() => {
-		return () => {}
+		const setProviders = async () => {}
 	}, [])
 
 	return (
