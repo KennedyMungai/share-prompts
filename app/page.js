@@ -10,6 +10,14 @@ const Home = () => {
 					AI Powered Prompts
 				</span>
 			</h1>
+			<p className='desc text-center'>
+				Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero
+				voluptatibus ullam amet praesentium ratione soluta iure incidunt
+				culpa nemo sit nulla deleniti, ea esse mollitia voluptatum nam
+				autem obcaecati sint nihil quas quidem cupiditate. Recusandae
+				eaque quas, tenetur quos beatae fuga tempora et, sit id neque
+				eos perferendis, mollitia a.
+			</p>
 		</section>
 	)
 }
