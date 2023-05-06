@@ -10,6 +10,10 @@ const Nav = () => {
 	const isUserLoggedIn = false
 	const [providers, setProviders] = useState(null)
 
+	useEffect(() => {
+		return () => {}
+	}, [])
+
 	return (
 		<nav className='flex-between w-full mb-16 pt-3'>
 			<Link href={'/'} className='flex gap-2 flex-center'>
