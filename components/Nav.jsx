@@ -13,6 +13,7 @@ const Nav = () => {
 					src={'/assets/images/logo.svg'}
 					width={'40'}
 					height={'40'}
+					alt='The Page logo'
 				/>
 			</Link>
 		</nav>
