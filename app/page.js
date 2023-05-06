@@ -1,4 +1,5 @@
 import '@/app/globals.css'
+import Feed from '@/components/Feed'
 
 const Home = () => {
 	return (
@@ -18,6 +19,8 @@ const Home = () => {
 				eaque quas, tenetur quos beatae fuga tempora et, sit id neque
 				eos perferendis, mollitia a.
 			</p>
+
+			<Feed />
 		</section>
 	)
 }
