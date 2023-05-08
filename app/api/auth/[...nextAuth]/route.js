@@ -12,7 +12,17 @@ const handler = NextAuth({
 	async session({ session }) {},
 	async signIn({ profile }) {
 		try {
-		} catch (error) {}
+			await connectToDB()
+
+			// Check if a user already exists
+
+			// If not, create a new user and save it to the database
+
+			return true
+		} catch (error) {
+			console.log(error)
+			return false
+		}
 	}
 })
 
