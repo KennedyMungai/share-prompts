@@ -83,6 +83,18 @@ const Nav = () => {
 							className='object-contain'
 							onClick={() => setToggleDropdown((prev) => !prev)}
 						/>
+
+						{toggleDropdown && (
+							<div className='dropdown'>
+								<Link
+									href='/profile'
+									className='dropdown_link'
+									onClick={() => setToggleDropdown(false)}
+								>
+									My Profile
+								</Link>
+							</div>
+						)}
 					</div>
 				) : (
 					<>
