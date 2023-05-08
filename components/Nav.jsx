@@ -5,7 +5,7 @@ import { useEffect, useState } from 'react'
 import { signIn, signOut, useSession, getProviders } from 'next-auth/react'
 
 const Nav = () => {
-	const isUserLoggedIn = false
+	const isUserLoggedIn = true
 	const [providers, setProviders] = useState(null)
 
 	useEffect(() => {
