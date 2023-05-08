@@ -81,7 +81,7 @@ const Nav = () => {
 							height={'30'}
 							alt='The Page logo'
 							className='object-contain'
-							onClick={() => {}}
+							onClick={() => setToggleDropdown(!toggleDropdown)}
 						/>
 					</div>
 				) : (
