@@ -21,7 +21,7 @@ const handler = NextAuth({
 			// If not, create a new user and save it to the database
 			if(!userExists)
 			{
-				await User.create(email: profile.email, username: profile.name.replace(" ", ""))
+				await User.create(email: profile.email, username: profile.name.replace(" ", "")).toLowerCase()
 			}
 
 			return true
