@@ -7,7 +7,7 @@ const UserSchema = new Schema({
 		required: [true, 'Email is required']
 	},
 	username: {
-		type: string,
+		type: String,
 		required: [true, 'Username is required'],
 		match: [
 			/^(?=.{8,20}$)(?![_.])(?!.*[_.]{2})[a-zA-Z0-9._]+(?<![_.])$/,
