@@ -46,8 +46,8 @@ const Nav = () => {
 						<Link href={'/profile'}>
 							<Image
 								src={'/assets/images/profile.svg'}
-								width={30}
-								height={30}
+								width={37}
+								height={37}
 								alt='user'
 								className='object-contain'
 							/>
